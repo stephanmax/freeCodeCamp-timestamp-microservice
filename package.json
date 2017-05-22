@@ -1,13 +1,13 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "timestamp-microservice",
+  "version": "0.1.0",
+  "description": "The freeCodeCamp API project 'Timestamp Microservice'",
   "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stephanmax/freeCodeCamp-timestamp-microservice.git"
   },
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Stephan Max <stephan.max@gmail.com>",
   "dependencies": {
     "express": "^4.15.3",
     "moment": "^2.18.1"

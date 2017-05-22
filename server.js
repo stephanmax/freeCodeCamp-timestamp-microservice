@@ -3,7 +3,8 @@ var moment = require('moment');
 var app = express();
 
 app.get('/:date', function (req, res) {
-  var mmnt = moment(req.params.date);
+  var date = Number(req.params.date);
+  var mmnt = moment(isNaN(date) ? req.params.date : date);
   
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify({
